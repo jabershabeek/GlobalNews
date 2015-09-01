@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:paddingLeft="5dp"
+    android:paddingBottom="2dp"
+    android:paddingRight="5dp"
+    android:paddingTop="2dp"
+    android:focusable="false"
+    android:clickable="false">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="15dp"
+		android:paddingTop="15dp"
+		android:paddingBottom="15dp"
+		android:paddingRight="15dp"
+        android:focusable="false"
+        android:clickable="false"
+		android:background="@drawable/selector_card_background">
+
+		<TextView
+			android:id="@+id/text1"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="Text line 1"
+			android:textColor="#ffffff"
+			android:textStyle="bold"
+            android:background="#1B5E20"
+            android:layout_marginBottom="3dp"
+            android:padding="8dp"
+			android:textSize="16dp"
+            android:focusable="false"
+            android:clickable="false"/>
+	</LinearLayout>
+</FrameLayout>
